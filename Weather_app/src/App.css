@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* background-color: red;  */
+}
+
+.top-nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.user-email{
+  font-size: 30px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  margin-right: 20px;
+}
+.weather-details{        /*current weather*/
+  /* background-color: red; */
+  border: 2px solid white;
+}
+.forecast{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+}
+.hourly-item{
+  border: 2px solid white;
+}
